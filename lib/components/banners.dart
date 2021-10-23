@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_reference/main.dart';
 
 // A banner displays a prominent message and related optional actions.
+// ToDo: Add animation part
+
 class BannersWidgetScreen extends StatefulWidget {
   const BannersWidgetScreen({Key? key}) : super(key: key);
 

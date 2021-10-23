@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_reference/components/app_bars.dart';
 import 'package:flutter_reference/components/banners.dart';
+import 'package:flutter_reference/components/bottom_navigation.dart';
 
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Reference',
       theme: _buildShrineTheme(),
       debugShowCheckedModeBanner: false,
-      home: const BannersWidgetScreen(),
+      home: const BottomNavigationWidgetScreen(),
     );
   }
 }
