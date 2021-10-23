@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.techkush.flutter_reference">
    <application
-        android:label="flutter_reference"
+        android:label="Flutter Reference"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
