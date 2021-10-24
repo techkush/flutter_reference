@@ -14,7 +14,7 @@ class _CheckBoxesWidgetScreenState extends State<CheckBoxesWidgetScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Cards'),),
+      appBar: AppBar(title: const Text('Checkboxes'),),
       body: Container(
         margin: const EdgeInsets.symmetric(vertical: 40),
         child: Column(

@@ -5,6 +5,7 @@ import 'package:flutter_reference/components/bottom_navigation.dart';
 import 'package:flutter_reference/components/buttons.dart';
 import 'package:flutter_reference/components/cards.dart';
 import 'package:flutter_reference/components/checkboxes.dart';
+import 'package:flutter_reference/components/chips.dart';
 
 
 void main() {
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Reference',
       theme: _buildShrineTheme(),
       debugShowCheckedModeBanner: false,
-      home: const CheckBoxesWidgetScreen(),
+      home: const ChipsWidgetScreen(),
     );
   }
 }
