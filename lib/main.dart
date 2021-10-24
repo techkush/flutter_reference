@@ -3,6 +3,7 @@ import 'package:flutter_reference/components/app_bars.dart';
 import 'package:flutter_reference/components/banners.dart';
 import 'package:flutter_reference/components/bottom_navigation.dart';
 import 'package:flutter_reference/components/buttons.dart';
+import 'package:flutter_reference/components/cards.dart';
 
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Reference',
       theme: _buildShrineTheme(),
       debugShowCheckedModeBanner: false,
-      home: const ButtonWidgetScreen(),
+      home: const CardsWidgetScreen(),
     );
   }
 }
@@ -55,7 +56,7 @@ TextTheme _buildShrineTextTheme(TextTheme base) {
       );
 }
 
-const TextStyle buttonTextStyleActive = TextStyle(color: shrineBrown600, fontWeight: FontWeight.bold);
+const TextStyle buttonTextStyleActive = TextStyle(color: Color(0xFF6200EE), fontWeight: FontWeight.bold);
 
 const ColorScheme _shrineColorScheme = ColorScheme(
   primary: shrinePink100,
