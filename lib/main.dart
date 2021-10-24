@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_reference/components/app_bars.dart';
 import 'package:flutter_reference/components/banners.dart';
 import 'package:flutter_reference/components/bottom_navigation.dart';
+import 'package:flutter_reference/components/buttons.dart';
 
 
 void main() {
@@ -17,10 +18,13 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Reference',
       theme: _buildShrineTheme(),
       debugShowCheckedModeBanner: false,
-      home: const BottomNavigationWidgetScreen(),
+      home: const ButtonWidgetScreen(),
     );
   }
 }
+
+
+//https://material.io/design/color/applying-color-to-ui.html#usage
 
 ThemeData _buildShrineTheme() {
   final ThemeData base = ThemeData.light();
@@ -51,7 +55,7 @@ TextTheme _buildShrineTextTheme(TextTheme base) {
       );
 }
 
-const TextStyle buttonTextStyleActive = TextStyle(color: Colors.green);
+const TextStyle buttonTextStyleActive = TextStyle(color: shrineBrown600, fontWeight: FontWeight.bold);
 
 const ColorScheme _shrineColorScheme = ColorScheme(
   primary: shrinePink100,
@@ -70,12 +74,12 @@ const ColorScheme _shrineColorScheme = ColorScheme(
 );
 
 const Color shrinePink50 = Color(0xFFFEEAE6);
-const Color shrinePink100 = Color(0xFFFEDBD0);
-const Color shrinePink300 = Color(0xFFFBB8AC);
-const Color shrinePink400 = Color(0xFFEAA4A4);
+const Color shrinePink100 = Color(0xFF7A8790);
+const Color shrinePink300 = Color(0xFF5D686F);
+const Color shrinePink400 = Color(0xFF41494E);
 
-const Color shrineBrown900 = Color(0xFF442B2D);
-const Color shrineBrown600 = Color(0xFF7D4F52);
+const Color shrineBrown900 = Color(0xFF42242D);
+const Color shrineBrown600 = Color(0xFF915063);
 
 const Color shrineErrorRed = Color(0xFFC5032B);
 
