@@ -4,6 +4,7 @@ import 'package:flutter_reference/components/banners.dart';
 import 'package:flutter_reference/components/bottom_navigation.dart';
 import 'package:flutter_reference/components/buttons.dart';
 import 'package:flutter_reference/components/cards.dart';
+import 'package:flutter_reference/components/checkboxes.dart';
 
 
 void main() {
@@ -19,13 +20,16 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Reference',
       theme: _buildShrineTheme(),
       debugShowCheckedModeBanner: false,
-      home: const CardsWidgetScreen(),
+      home: const CheckBoxesWidgetScreen(),
     );
   }
 }
 
 
 //https://material.io/design/color/applying-color-to-ui.html#usage
+
+// Crane - this is very good
+// https://material.io/design/material-studies/crane.html#color
 
 ThemeData _buildShrineTheme() {
   final ThemeData base = ThemeData.light();

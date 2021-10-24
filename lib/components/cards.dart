@@ -56,8 +56,6 @@ class _CardsWidgetScreenState extends State<CardsWidgetScreen> {
                     ),
                     Image.asset('assets/images/image1.jpeg'),
                     Image.asset('assets/images/image2.jpeg'),
-
-
                   ],
                 ),
               ),
